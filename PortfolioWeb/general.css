@@ -1,0 +1,110 @@
+html, body{ height: 100%;
+    width: 100%;
+}
+body {
+	height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    background-color: #6699cc;
+    padding: 0;
+    margin: 0;
+}
+
+main{ 
+     background-color: #6699cc;
+}
+
+
+
+ #container{
+    
+	 background-color: gray;
+    display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 
+    width: 100%;
+    border: 5px solid black;
+
+}
+.enlace{  text-decoration: none;
+    color: aliceblue;
+}
+
+.enlace:hover{
+    color: darkslateblue;
+}
+
+
+#cabecera{
+ width: 300px;
+}
+
+}
+
+
+main{ width: 100%;
+    height: 100;
+}
+
+
+header{
+    display: flex;
+	justify-content: center;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+nav {
+display: flex;
+	justify-content: center;
+position : absolute;
+left : 0;
+width : 100%;
+background-color: black;
+}
+nav ul {
+margin : 0 auto;
+}
+nav ul li {
+float : left;
+}
+nav ul li a {
+display : block;
+margin-right : 20px;
+width : 140px;
+font-size : 14px;
+line-height : 44px;
+text-align : center;
+text-decoration : none;
+color : #ccc;
+}
+nav ul li a:hover {
+color : #fff;
+}
+nav ul li.selected a {
+co
+
+ul, li {
+	list-style:none;
+}
+    
+#cajaimagenes {
+  display: flex;
+    
+    width: 80%;
+    height: 80%;
+    padding: 3px 10px;
+  border: black 5px solid;
+  border-radius: 20px;
+}
+    
+
+
+
