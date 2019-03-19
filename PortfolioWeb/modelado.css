@@ -1,0 +1,100 @@
+.titulomodelado{
+    width: 60%;
+    height: 10%;
+    background-color: aliceblue;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    border: 5px solid gray;
+  border-radius: 12px;
+    opacity: 0.7;
+    
+}
+.cuadromodelado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 28px;  
+}
+.cajatitulo {
+width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+.trabajocaja{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+    
+}
+    *{
+ box-sizing: border-box;
+        
+}
+
+html, body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px; 
+    color: skyblue;
+    transition: transform .2s;
+    
+}
+.imagen1:hover {
+  transform: scale(1.1);
+}
+.imagen2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px; 
+    color: skyblue;
+    transition: transform .2s;
+}
+.imagen2:hover {
+  transform: scale(1.1);
+}
+body{
+  background-image: url("imagenes/background.jpg");
+}
+.jorge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity:0.6;
+    
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  
+}
+.imagenredes{
+    width: 20px;
+    height: 20px;
+    
+}
+.imagenredes:hover {
+  transform: scale(1.2);
+}
+    
